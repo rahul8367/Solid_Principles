@@ -2,7 +2,7 @@ package SolidPrincipleViolation.SRP;
 /*
 violation os single responsibility it states that every java class must perform a single functionality.
  */
-public class BankService {
+public class BankServiceCLASS {
     public void deposit(int amount,String number ){
         //deposit the amount
     }

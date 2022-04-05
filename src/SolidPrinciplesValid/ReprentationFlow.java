@@ -6,7 +6,7 @@ import SolidPrinciplesValid.Notification.NotificationService;
 import java.util.Scanner;
 public class ReprentationFlow {
     public void flow(){
-        Scanner KeyBoard=new Scanner(System.in);
+       /* Scanner KeyBoard=new Scanner(System.in);
         System.out.println("select the opions\n1)lone\n2)notification\n3)bank withdraw and deposit\n4)passbook print");
         int select=KeyBoard.nextInt();
         KeyBoard.nextLine();
@@ -52,7 +52,7 @@ public class ReprentationFlow {
 
         }
         else
-            System.out.println("incorrect input");
+            System.out.println("incorrect input");*/
     }
 
 }

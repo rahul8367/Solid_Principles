@@ -1,6 +1,6 @@
 package SolidPrinciplesValid.Lone;
 
-public class LoneServiceHandler {
+public class LoanServiceHandler {
     public static LonePlan getPlan(String select){
         if("one".equalsIgnoreCase(select)){
             return new OneMonth();
@@ -12,6 +12,6 @@ public class LoneServiceHandler {
             return new OneYear();
         }
         else
-            return new DefultL();
+            return new DefaultResults();
     }
 }

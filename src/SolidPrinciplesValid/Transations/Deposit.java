@@ -10,14 +10,14 @@ of classes use only tha methods that are regurired.we should not force the clien
  to use the methods that they do not want to use
  */
 
-public class Deposit implements BankTransationsByCHECK, BankTransationsByCASH {
+public class Deposit implements CheckTransations, CashTransations {
     @Override
-    public void check(int amount, String userId) {
+    public void getCheck(int amount, String userId) {
 
     }
 
     @Override
-    public void cash(int amount, String userId) {
+    public void getCash(int amount, String userId) {
 
     }
 }

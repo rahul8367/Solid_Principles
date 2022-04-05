@@ -1,8 +1,6 @@
 package SolidPrinciplesValid.Notification;
 
-import SolidPrinciplesValid.Notification.NotificationService;
-
-public class WathsApp implements NotificationService {
+public class WathsAppNotificationService implements NotificationService {
     @Override
     public void sendOTP(String number) {
         //write logic hear

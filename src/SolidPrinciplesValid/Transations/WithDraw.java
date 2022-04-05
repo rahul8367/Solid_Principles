@@ -1,19 +1,19 @@
 package SolidPrinciplesValid.Transations;
 
 
-public class WithDraw implements BankTransationsByCASH, BankTransationsByCHECK, BankTransationsByUPI {
+public class WithDraw implements CashTransations, CheckTransations, UPI_Transations {
     @Override
-    public void cash(int amount, String userId) {
+    public void getCash(int amount, String userId) {
 
     }
 
     @Override
-    public void check(int amount, String userId) {
+    public void getCheck(int amount, String userId) {
 
     }
 
     @Override
-    public void upi(int amount, String userId) {
+    public void checkUPI_transation(int amount, String userId) {
 
     }
 }

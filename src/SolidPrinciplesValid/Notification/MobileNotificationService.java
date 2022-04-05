@@ -1,8 +1,6 @@
 package SolidPrinciplesValid.Notification;
 
-import SolidPrinciplesValid.Notification.NotificationService;
-
-public class Mobile implements NotificationService {
+public class MobileNotificationService implements NotificationService {
     @Override
     public void sendOTP(String number) {
         //write logic here
